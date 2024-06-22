@@ -1,5 +1,5 @@
 {
-    "name": "@hoboy/so-icons",
+    "name": "so-icons-client",
     "scripts": {
         "dev": "vite --host"
     },

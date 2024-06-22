@@ -1,19 +1,18 @@
 {
-  "name": "so-icons",
-  "type": "module",
-  "module": "index.ts",
-  "workspaces": ["packages/*"],
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^2.21.1",
-    "@types/bun": "latest",
-    "sass": "^1.77.6",
-    "stylelint": "^16.6.1",
-    "stylelint-config-idiomatic-order": "^10.0.0",
-    "stylelint-config-standard-scss": "^13.1.0",
-    "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^6.3.2"
-  }
+    "name": "so-icons",
+    "type": "module",
+    "module": "index.ts",
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^2.21.1",
+        "@types/bun": "latest",
+        "sass": "^1.77.6",
+        "stylelint": "^16.6.1",
+        "stylelint-config-idiomatic-order": "^10.0.0",
+        "stylelint-config-standard-scss": "^13.1.0",
+        "stylelint-order": "^6.0.4",
+        "stylelint-scss": "^6.3.2"
+    }
 }
