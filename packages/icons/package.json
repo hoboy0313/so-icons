@@ -1,12 +1,12 @@
 {
-    "name": "@hoboy/so-icons",
-    "type": "module",
-    "scripts": {
-        "build": "../../node_modules/.bin/gulp build"
-    },
-    "devDependencies": {
-        "@types/gulp": "^4.0.17",
-        "esm": "^3.2.25",
-        "gulp": "^5.0.0"
-    }
+  "name": "@hoboy/so-icons",
+  "type": "module",
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp build"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "esm": "^3.2.25",
+    "gulp": "^5.0.0"
+  }
 }
