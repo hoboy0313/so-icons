@@ -1,0 +1,29 @@
+{
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, eslint.config.*, .eslintrc, .env*, .npmrc, pnpm-workspace.yaml, deploy.json, stylelint.config.*, postcss.config.mjs, components.json, tailwind.config.ts",
+        "next.config.mjs": "next-env.d.ts",
+        "README.md": "*.md"
+    },
+    "tailwindCSS.experimental.classRegex": [
+        ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+        ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "emmet.includeLanguages": {
+        "postcss": "scss"
+    },
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "less", "scss", "postcss"],
+    "stylelint.snippet": ["css", "less", "postcss", "scss"],
+    "[css]": {
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        "editor.formatOnSave": true
+    },
+    "eslint.validate": ["javascript", "typescript", "json", "javascriptreact", "typescriptreact"]
+}
