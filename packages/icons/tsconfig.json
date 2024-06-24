@@ -1,6 +1,14 @@
 {
   "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true
+  },
   "include": [
-    "gulpfile.ts"
+    "gulpfile.ts",
+    "build/**/*.ts",
+    "scripts/**/*.ts",
+    "tools/**/*.ts",
+    "env.d.ts"
   ]
 }

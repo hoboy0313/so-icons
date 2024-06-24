@@ -2,11 +2,20 @@
   "name": "@hoboy/so-icons",
   "type": "module",
   "scripts": {
-    "build": "../../node_modules/.bin/gulp build"
+    "build": "bun scripts/build.ts"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
     "@types/gulp": "^4.0.17",
-    "esm": "^3.2.25",
-    "gulp": "^5.0.0"
+    "@types/through2": "^2.0.41",
+    "del": "^7.1.0",
+    "esbuild": "^0.21.5",
+    "gulp": "^5.0.0",
+    "rollup": "^4.18.0",
+    "through2": "^4.0.2"
   }
 }

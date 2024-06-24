@@ -5,6 +5,7 @@ export default antfu({
         'jsonc/indent': ['error', 2],
         'style/indent': ['error', 4],
         'style/jsx-indent': ['error', 4],
+        'style/brace-style': ['error', '1tbs'],
         'style/jsx-indent-props': ['error', 'first'],
         'style/block-spacing': ['error', 'never'],
         'style/object-curly-spacing': ['error', 'never'],

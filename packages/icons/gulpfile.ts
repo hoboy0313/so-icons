@@ -1,11 +1,17 @@
 import gulp from 'gulp';
+import * as del from 'del';
 
-function compile() {
-    return gulp.dest('dist/');
-}
+import svgr from './tools/svgr';
 
-export function build() {
-    return gulp.series(
-        compile,
-    );
-}
+gulp.task('clean', () => {
+    return del.deleteAsync(['dist']);
+});
+
+gulp.task('compile', () => {
+    return gulp
+        .src('src/*.svg')
+        .pipe(svgr())
+        .pipe(gulp.dest('dist'));
+});
+
+export default gulp.series('clean', 'compile');
